@@ -28,9 +28,9 @@ const About = () => {
           <div>
             <span className="flex items-center justify-center space-x-10">
               <a
-                href="/assets/Festus_Asiyanbi_Resume.pdf"
-                download
+                href={data.about.cv}
                 className="text-[#BD4F6C] font-[500]"
+                target="_blank"
               >
                 Download Resume
               </a>

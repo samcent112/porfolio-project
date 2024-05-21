@@ -28,7 +28,7 @@ export const data = {
       image: '/assets/festus.jpg',
       name: ['Festus', 'Asiyanbi'],
       profession: 'I am a 2nd year Software Engineering student at Centennial College. I enjoy coding and getting my hands dirty. I am currently developing mobile applications using React Native because I actually enjoy developing mobile app and prefer it to websites & web applications',
-      cv: './Festus_Asiyanbi_Resume.pdf',
+      cv: 'https://docs.google.com/document/d/1QP0F0vYiRvvogGNbpoLVq4Xb0WZQpqrcYvM0cLtlfnw/edit?usp=sharing',
     },
     projects: [
         {

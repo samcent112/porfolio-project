@@ -1,7 +1,8 @@
-function FourZeroFour() {
-  return (
-    <div>Page not found.</div>
-  )
+const FourZeroFour = () => {
+    return (
+        <div className="flex justify-center items-center">
+            <img src="/assets/fourzerofour.jpg" className="h-[50%] object-contain"/>
+        </div>
+      )
 }
-
-export default FourZeroFour
+export default FourZeroFour;
