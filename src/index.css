@@ -1,18 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  --bg-blue: #2B2B52;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: aliceblue;
+  background-color: #002244;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -64,5 +73,67 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+header, footer, .gradient {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+}
+section {
+  @apply py-20
+}
+.center-content {
+  @apply flex justify-center items-center
+}
+.end-content {
+  @apply flex items-end justify-end 
+}
+.curve-heading {
+  border-radius: 0 0 0 80px;
+  box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, .5);
+  @apply text-[17px] font-[600]  h-[70px] w-[90%] mb-5 flex items-center justify-center bg-regular_brown
+}
+button {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+  @apply py-3 px-7 my-2 rounded-[10px]
+}
+.g-transition {
+  transition: all 1.5s ease-in-out .1s;
+}
+.rounded-gradient-div {
+  background: linear-gradient(30deg, #002D62, #BD4F6C);
+}
+.about-image {
+  transform: rotate(15deg);
+  transition: all 1.5s ease-in-out .3s;
+}
+.about-image:hover {
+  transition: all 1.5s ease-in-out .3s;
+  transform: none;
+}
+.contact input {
+  @apply h-[80px]
+}
+.contact textarea {
+  @apply h-[200px]
+}
+.contact input, .contact textarea {
+  transition: all 1s ease-in-out .1s;
+  @apply w-[400px] border-[1.5px] border-regular_brown bg-[#002D62] p-2 focus:text-black focus:bg-white outline-none
+}
+.active-nav {
+  @apply text-blue-600
+}
+.project-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: boxShadowAnimation 2s infinite alternate;
+}
+
+@keyframes boxShadowAnimation {
+  from {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  to {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   }
 }
