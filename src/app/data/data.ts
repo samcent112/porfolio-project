@@ -128,7 +128,7 @@ export const data = {
           },
           {
               skill: "Nginx",
-              proficiency: "ExperIntermediateienced",
+              proficiency: "Intermediate",
           },
           {
               skill: "Redux",

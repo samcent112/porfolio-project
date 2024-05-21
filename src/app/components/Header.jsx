@@ -1,7 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { data } from "../data/data";
 
 const Header = () => {
+  const location = useLocation(data.header.link_to);
   return (
     <header className="flex justify-between items-center h-[70px] font-[600] px-10">
       <a className="flex lg:flex-1" href="/">
@@ -49,11 +50,12 @@ const Header = () => {
           <NavLink
             key={index}
             to={link.link_to}
-            className={({ isActive }) =>
-              isActive
-                ? "capitalize border-b-[1px] border-black text-black"
-                : "capitalize transition-all duration-400 delay-300"
-            }
+            className='capitalize'
+            style={location.pathname == link.link_to ? {
+              borderBottomWidth: 1,
+              borderBottomColor: '#000000',
+              color: 'black',
+            } : {border: 'none'}}
           >
             {link.name}
           </NavLink>
