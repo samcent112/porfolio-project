@@ -36,7 +36,7 @@ export const data = {
             description: 'This project is a cross-platform social media mobile application developed using React Native, featuring real-time messaging, photo and video sharing and posting, and customizable profiles.',
             img: "/assets/connectify.png",
             link: "https://github.com/festusasiyanbi/connectify",
-            github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
+            github: "https://github.com/festusasiyanbi/connectify",
             technologies: "React-Navtive & Firebase",
         },
       {
