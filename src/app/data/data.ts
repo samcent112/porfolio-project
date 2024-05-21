@@ -56,6 +56,32 @@ export const data = {
           technologies: "React Native, Firebase, & TailwindCSS",
       },
     ],
+    services: [
+        {
+            service_title: 'Web Development',
+            description: 'Design and develop scalable web applications using modern frameworks and technologies such as React.js',
+        },
+        {
+            service_title: 'Mobile App Development',
+            description: 'Create native and cross-platform mobile applications for iOS and Android platforms using technologies like React Native',
+        },
+        {
+            service_title: 'Backend Development',
+            description: 'Build robust backend systems and RESTful APIs using server-side technologies such as Node.js, Express, and MongoDB or relational databases like MySQL or PostgreSQL.',
+        },
+        {
+            service_title: 'DevOps and Deployment',
+            description: 'Implement continuous integration and deployment pipelines using tools like Docker, Kubernetes, and Jenkins to automate the deployment process and ensure seamless delivery.',
+        },
+        {
+            service_title: 'UI/UX Design Collaboration',
+            description: 'Collaborate with designers to create intuitive user interfaces and ensure a smooth user experience by implementing best practices in UI/UX design.',
+        },
+        {
+            service_title: 'Consulting and Code Review',
+            description: 'Provide consulting services and perform code reviews to ensure code quality, scalability, and maintainability of software projects.',
+        },
+    ],
     skills: {
       frontend: [
           {
