@@ -27,10 +27,18 @@ export const data = {
     about: {
       image: '/assets/festus.jpg',
       name: ['Festus', 'Asiyanbi'],
-      profession: 'I am a 1st year Software Engineering student at Centennial College. I enjoy coding and getting my hands dirty. I am currently developing mobile applications using React Native because I actually enjoy developing mobile app and prefer it to websites & web applications',
-      cv: './FestusCV.pdf',
+      profession: 'I am a 2nd year Software Engineering student at Centennial College. I enjoy coding and getting my hands dirty. I am currently developing mobile applications using React Native because I actually enjoy developing mobile app and prefer it to websites & web applications',
+      cv: './Festus_Asiyanbi_Resume.pdf',
     },
     projects: [
+        {
+            title: "Connectify",
+            description: 'This project is a cross-platform social media mobile application developed using React Native, featuring real-time messaging, photo and video sharing and posting, and customizable profiles.',
+            img: "/assets/connectify.png",
+            link: "https://github.com/festusasiyanbi/connectify",
+            github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
+            technologies: "React-Navtive & Firebase",
+        },
       {
           title: "Ajaniti40",
           description: 'Developed this website for Gbolahan Ayodeji to display to his loved ones, gallery of the birthday images he took with his family. I used TypeScript, NextJS, Firebase Firestore, Firebase Storage, TailwindCSS, and Figma. ',
@@ -38,14 +46,6 @@ export const data = {
           link: "https://ajaniti40.com",
           github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
           technologies: "TypeScript, NextJS, & TailwindCSS",
-      },
-      {
-          title: "WhatsApp Clone",
-          description: 'This project is a clone of the WhatsApp web application, aiming to recreate its user interface and core functionalities using ReactJS, Firebase Firestore, Firebase Storage, and TailwindCSS',
-          img: "/assets/whatsapp_web.jpeg",
-          link: "https://whatsapp-web-clone-dd630.web.app/",
-          github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
-          technologies: "React, Firebase, & TailwindCSS",
       },
       {
           title: "WhatsApp Clone",

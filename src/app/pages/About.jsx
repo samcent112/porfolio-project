@@ -28,7 +28,7 @@ const About = () => {
           <div>
             <span className="flex items-center justify-center space-x-10">
               <a
-                href="/assets/FestusCV.pdf"
+                href="/assets/Festus_Asiyanbi_Resume.pdf"
                 download
                 className="text-[#BD4F6C] font-[500]"
               >
