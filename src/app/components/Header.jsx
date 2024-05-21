@@ -1,6 +1,11 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { data } from "../data/data";
-
+/*
+  File name: Header.jsx
+  Student Name: Festus Asiyanbi
+  Student ID: 301270589
+*/
+// This is the header file where all the navigation entities are rendered.
 const Header = () => {
   const location = useLocation(data.header.link_to);
   return (
@@ -51,7 +56,7 @@ const Header = () => {
             key={index}
             to={link.link_to}
             className='capitalize'
-            style={location.pathname == link.link_to ? {
+            style={location.pathname === link.link_to  ? {
               borderBottomWidth: 1,
               borderBottomColor: '#000000',
               color: 'black',

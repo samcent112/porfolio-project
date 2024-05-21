@@ -2,7 +2,11 @@
 import { FaCheckCircle } from "react-icons/fa";
 import Layout from "../components/Layout";
 import { data } from "../data/data";
-
+/*
+  File name: Skills.jsx
+  Student Name: Festus Asiyanbi
+  Student ID: 301270589
+*/
 const SkillSection = ({ title, skills }) => (
   <div className="w-[25%] h-[420px] pb-5 bg-[#041E42] flex flex-col items-start justify-between">
     <div className="end-content w-full">

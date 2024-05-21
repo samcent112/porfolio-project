@@ -4,7 +4,7 @@ export const data = {
       links: [
           {
               name: "about",
-              link_to: "/about",
+              link_to: "/",
           },
           {
               name: "projects",
