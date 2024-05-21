@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="flex items-start justify-start space-x-20">
           <div className="center-content flex-col space-y-7">
             <div>
-              <input type="text" placeholder="Full Name" />
+              <input type="text" placeholder="Your Name" />
             </div>
             <div>
               <input type="text" placeholder="example@gmail.com" />
