@@ -9,38 +9,7 @@ import Layout from "../components/Layout";
   Student ID: 301270589
 */
 const Contact = () => {
-  // const [formData, setFormData] = useState({
-  //   fullName: "",
-  //   email: "",
-  //   message: "",
-  // });
 
-  // const handleInputChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prevForm) => ({
-  //     ...prevForm,
-  //     [name]: value,
-  //   }));
-  // };
-  // const handleSubmit = async() => {
-  //   if(!formData.fullName || !formData.email || !formData.message) {
-  //     window.alert('Please fill all the required inputs.');
-  //     return;
-  //   }
-  //   let userDocRef = await db.collection('user-messages').doc(formData.email);
-  //   try {
-  //     await userDocRef.set(
-  //       {
-  //         form: formData,
-  //       },
-  //       { merge: true }
-  //     );
-  //     window.alert('Message submitted successfully! Thank you for reaching out. 😊');
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-
-  // }
   return (
     <Layout>
       <section id="contact" className="contact center-content w-full">
@@ -51,8 +20,6 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="Your Name"
-                // value={formData.fullName}
-                // onChange={handleInputChange}
               />
             </div>
             <div>
@@ -60,16 +27,12 @@ const Contact = () => {
                 type="text"
                 required
                 placeholder="example@gmail.com"
-                // value={formData.email}
-                // onChange={handleInputChange}
               />
             </div>
             <div>
               <textarea
                 placeholder="Message"
                 required
-                // value={formData.message}
-                // onChange={handleInputChange}
               />
             </div>
             <div className="flex items-center justify-start w-full">
