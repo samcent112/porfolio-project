@@ -50,7 +50,9 @@ const Header = () => {
             key={index}
             to={link.link_to}
             className={({ isActive }) =>
-              isActive ? "capitalize border-b-[1px] border-black text-black" : "capitalize transition-all duration-400 delay-300"
+              isActive
+                ? "capitalize border-b-[1px] border-black text-black"
+                : "capitalize transition-all duration-400 delay-300"
             }
           >
             {link.name}
