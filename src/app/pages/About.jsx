@@ -2,9 +2,9 @@ import Layout from "../components/Layout";
 import { data } from "../data/data";
 /*
   File name: About.jsx
-  Student Name: Festus Asiyanbi
-  Student ID: 301270589
-*/
+  Student Name: Samuel Osoata
+  Student ID: 301407126
+  */
 const About = () => {
   return (
     <Layout>
@@ -35,11 +35,12 @@ const About = () => {
                 href={data.about.cv}
                 className="text-[#BD4F6C] font-[500]"
                 target="_blank"
+                download 
               >
                 Download Resume
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="bg-[#BD4F6C] px-5 py-3 font-[500] rounded-[7px] flex items-center justify-center"
               >
                 Contact me

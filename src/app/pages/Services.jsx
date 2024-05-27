@@ -2,8 +2,8 @@ import Layout from "../components/Layout";
 import { data } from "../data/data";
 /*
   File name: Services.jsx
-  Student Name: Festus Asiyanbi
-  Student ID: 301270589
+  Student Name: Samuel Osoata
+  Student ID: 301407126
 */
 const Services = () => {
   return (

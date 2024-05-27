@@ -1,6 +1,6 @@
 export const data = {
     header: {
-      name: ["festus", "asiyanbi"],
+      name: ["samuel", "osoata"],
       links: [
           {
               name: "about",
@@ -14,10 +14,7 @@ export const data = {
               name: "services",
               link_to: "/services",
           },
-          {
-              name: "skills",
-              link_to: "/skills",
-          },
+          
           {
               name: "contact",
               link_to: "/contact",
@@ -25,33 +22,33 @@ export const data = {
       ]
     },
     about: {
-      image: '/assets/festus.jpg',
-      name: ['Festus', 'Asiyanbi'],
+      image: '/assets/sam.jpeg',
+      name: ['Samuel', 'Osoata'],
       profession: 'I am a 2nd year Software Engineering student at Centennial College. I enjoy coding and getting my hands dirty. I am currently developing mobile applications using React Native because I actually enjoy developing mobile app and prefer it to websites & web applications',
-      cv: 'https://docs.google.com/document/d/1QP0F0vYiRvvogGNbpoLVq4Xb0WZQpqrcYvM0cLtlfnw/edit?usp=sharing',
+      cv: '/assets/resume.pdf'
     },
     projects: [
         {
-            title: "Connectify",
-            description: 'This project is a cross-platform social media mobile application developed using React Native, featuring real-time messaging, photo and video sharing and posting, and customizable profiles.',
-            img: "/assets/connectify.png",
-            link: "https://github.com/festusasiyanbi/connectify",
+            title: "project1",
+            description: 'This project is aabout centennial college application form for new student intending to study in the college.',
+            img: "/assets/project1.jpg",
+            link: "../src/assignment4/index.html",
             github: "https://github.com/festusasiyanbi/connectify",
             technologies: "React-Navtive & Firebase",
         },
       {
-          title: "Ajaniti40",
-          description: 'Developed this website for Gbolahan Ayodeji to display to his loved ones, gallery of the birthday images he took with his family. I used TypeScript, NextJS, Firebase Firestore, Firebase Storage, TailwindCSS, and Figma. ',
-          img: "/assets/ajaniti40.jpeg",
-          link: "https://ajaniti40.com",
+          title: "Project2",
+          description: 'This project is about protected areas of the world. Protected area is a designated location that has been preserved for its ecological, natural and/or cultural values.  ',
+          img: "/assets/project2.jpg",
+          link: "../src/assignment2/index.html",
           github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
           technologies: "TypeScript, NextJS, & TailwindCSS",
       },
       {
-          title: "WhatsApp Clone",
-          description: 'This project is a clone of the iOS version of WhatsApp aiming to recreate its user interface and core functionalities. It showcases my skills in React Native, Firebase, and mobile app development.',
-          img: "/assets/whatsapp_web.jpeg",
-          link: "https://whatsapp-web-clone-dd630.web.app/",
+          title: "Project3",
+          description: 'This project is aabout DELL 12.3" Latitude 5290 Multi-Touch 2-in-1 Laptop PC Windows 10 Pro (No Keyboard).',
+          img: "/assets/project3.jpg",
+          link: "../src/assignment3/index.html",
           github: "https://github.com/festusasiyanbi/WhatsApp_Web_Clone",
           technologies: "React Native, Firebase, & TailwindCSS",
       },
@@ -82,90 +79,7 @@ export const data = {
             description: 'Provide consulting services and perform code reviews to ensure code quality, scalability, and maintainability of software projects.',
         },
     ],
-    skills: {
-      frontend: [
-          {
-              skill: "HTML",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "CSS",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "JavaScript",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "TypeScript",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "ReactJS",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "React Native",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "NextJS",
-              proficiency: "Intermediate",
-          },
-      ],
-      backend: [
-          {
-              skill: "Python",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "C",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "C#",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "SQL",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "Flask",
-              proficiency: "Intermediate",
-          },
-      ],
-      technogies: [
-          {
-              skill: "Git/GitHub",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "Jenkin",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "Jest",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "Jira",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "Nginx",
-              proficiency: "Intermediate",
-          },
-          {
-              skill: "Redux",
-              proficiency: "Experienced",
-          },
-          {
-              skill: "Webpack",
-              proficiency: "Experienced",
-          },
-      ],
-    },
+    
     contact: [
       {
           type: "Email",

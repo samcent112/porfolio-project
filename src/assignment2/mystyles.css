@@ -1,0 +1,104 @@
+#myimage{
+    width: 100%;
+  height: 700px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+background-position: center;
+background-size: cover;
+margin: 0px;
+}
+/* #myjayimage{
+    width: 50%;
+    height: 50%;
+    position:relative;
+    left: 0px;
+    right:0px;
+    top: 0px;
+    background-position:center;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+} */
+*{
+    margin:10px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.yourimage{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;   
+}
+.yourimage img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid #fff
+}
+
+
+#body-title{
+    margin-top: 25px;
+}
+
+#body-title h3{
+    
+    font-family: sans-serif;
+    font-weight: bold;
+   text-transform: uppercase;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#body-text{
+    text-align: center;
+    
+}
+#body
+
+
+#body{
+   text-align: center;
+}
+
+p{
+    margin-top: 30px;
+}
+
+ul{
+    display: inline-block;
+    
+   
+}
+
+ul li{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+   
+}
+
+ul a{
+    color: black;
+}
+
+#footer{
+    background-color: rgb(4, 135, 139);
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    background-color: darkkhaki;
+}

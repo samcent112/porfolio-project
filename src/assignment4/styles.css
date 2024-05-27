@@ -1,0 +1,60 @@
+.full-body
+{background-color: aquamarine;
+    margin: 50px;
+    text-align: center;
+    width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #777201;
+	border-radius: 0px;
+	text-indent: 0px;
+	padding: 30px;
+}
+.full-body1
+{
+    margin-bottom: 15px;
+	border-radius: 0px;
+    border: 1px solid black;
+	text-indent: 0px;
+	padding: 6px;
+}
+.intro-text
+{   
+ text-indent: 1px;
+ text-align: left;
+ margin-left: 20px;
+}
+
+.logo{
+	position: relative;
+	
+  top: 0px;
+  right:0px;
+  width:100px;
+  /* border: 1px solid #73AD21; */
+  cursor: pointer;
+}
+.one{
+	
+		word-spacing: 60px;
+}
+.Instructor{
+	text-align: left;
+	margin-left: 20px;
+	text-indent: 0px;
+	line-height: 0.8;
+}
+.action{
+
+text-align: left;
+	margin-left: 20px;
+	text-indent: 0px;
+}
+.two
+{
+	word-spacing: 100px;
+}
+.three
+{
+	word-spacing: 125px;
+}
