@@ -5,8 +5,8 @@ import Layout from "../components/Layout";
 // import { db } from "../firebase/Firebase";
 /*
   File name: Contact.jsx
-  Student Name: Festus Asiyanbi
-  Student ID: 301270589
+  Student Name: Samuel Osoata
+  Student ID: 301407126
 */
 const Contact = () => {
 
@@ -58,7 +58,7 @@ const Contact = () => {
                 <span>{contact.username}</span>
                 <a
                   href={
-                    contact.link === "festusasiyanbi80@gmail.com"
+                    contact.link === "com2samy112@gmail.com"
                       ? `mailto:${contact.link}`
                       : `${contact.link}`
                   }

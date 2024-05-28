@@ -3,8 +3,8 @@ import Footer from "./Footer";
 import React from "react";
 /*
   File name: Layout.jsx
-  Student Name: Festus Asiyanbi
-  Student ID: 301270589
+  Student Name: Samuel Osoata
+  Student ID: 301407126
 */
 // This component provides a layout for the entire web pages. It gives the website a uniform structure and enable the Header and Footer components be available for us in all of the pages
 const Layout = ({ children }) => {

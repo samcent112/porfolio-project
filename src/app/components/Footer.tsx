@@ -3,8 +3,8 @@ import { data } from '../data/data';
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 /*
   File name: Footer.jsx
-  Student Name: Festus Asiyanbi
-  Student ID: 301270589
+  Student Name: Samuel Osoata
+  Student ID: 301407126
 */
 // This component is responsible for rendering the footer on the website.
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer
       className='flex flex-col justify-center items-center h-[300px] font-[600] px-10 space-y-10'>
-      <div className='text-2xl'>Festus Asiyanbi</div>
+      <div className='text-2xl'>Samuel Osoata</div>
       <div className='flex justify-between space-x-14'>
         {data.header.links.map((link, index) => (
             <a

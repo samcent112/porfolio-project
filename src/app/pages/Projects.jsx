@@ -36,9 +36,7 @@ const Projects = () => {
                 </span>
                 <span className="text-[14px]">{project.description}</span>
                 <div className="center-content w-full space-x-5 text-[14px]">
-                  <button>
-                    <a href={project.github}>GitHub</a>
-                  </button>
+                  
                   <button>
                     <a href={project.link}>Live Demo</a>
                   </button>
