@@ -15,6 +15,7 @@ export default {
       },
       colors: {
         regular_brown: "#BD4F6C",
+        white: "#ffffff"
       },
     },
   },
